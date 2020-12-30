@@ -1,0 +1,44 @@
+.chat-footer{
+  background-color: #242424;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: middle;
+  position: relative;
+  bottom: 0;
+  padding: 10px 30px 10px 30px;
+  height: 50px;
+}
+
+.chat-footer button{
+  background: none;
+  padding: none;
+  margin: none;
+  border: none;
+}
+
+.chat-footer input::placeholder{
+  color: #d3d3d3;
+}
+
+.chat-footer .icon-send{
+  fill: white;
+}
+
+.send-message-form form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.send-message-form input{
+  width: 100%;
+  border: none;
+  margin: 0;
+  background: none;
+  color: #d3d3d3;
+  outline: none!important;
+  /* height: 120%; */
+
+}

@@ -1,0 +1,9 @@
+.employees{
+    height: 100vh;
+    margin-left: 49px;
+    width: -webkit-fill-available;
+}
+
+.employees.collapse{
+    margin-left: 180px;
+}

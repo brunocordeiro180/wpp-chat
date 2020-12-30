@@ -1,0 +1,80 @@
+.sidenav-contacts {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav-contacts a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav-contacts a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav-contacts .closebtn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-contacts .closebtn svg{
+    width: 30px;
+}
+
+.ui.link.list-contacts{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.ui.link.list-contacts .item{
+
+    background: #242424;
+    padding-left: 1em !important;
+    color: #d3d3d3 !important;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    height: 45px;
+    margin: 5px 0;
+    overflow: visible;
+    padding: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search {
+    width: 200px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+
+    padding: 5px 12px;
+    margin: 15px 20px;
+}

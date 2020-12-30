@@ -1,0 +1,27 @@
+.form-container{
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    /* margin-top: 1px; */
+    max-width: 600px;
+    width: 50%;
+    background-color: white;
+    padding: 3%;
+}
+
+#login{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(ellipse at center,#46a39b 0,#4a609b 100%);
+}
+
+#login-logo{
+    display: block !important;
+    text-align: center;    
+    margin-top: 5%;
+}
+
+#login-submit{
+    width: 100%;
+}

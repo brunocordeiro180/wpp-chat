@@ -1,0 +1,28 @@
+.main{
+  display: flex;
+  height: 100vh;
+  margin-left: 49px;
+  width: -webkit-fill-available;
+}
+
+.main.collapse{
+  margin-left: 180px;
+}
+
+.containerMother{
+  position: relative;
+  height: calc(100vh - 55px);
+  margin: 0 5px;
+  align-self: flex-end;
+  width: 100%;
+  z-index: 30 ;
+}
+
+#main-content{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin:0 auto;
+}
